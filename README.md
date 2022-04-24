@@ -35,12 +35,13 @@ The project featured the use of Spark. Spark is a unified analytics engine for l
 
 Due to the size of the dataframes it took some time to load to PostgreSQL and the RDS. I then did a few quick queries to check that everything ran smoothly. 
 
-<img width="745" alt="Screen Shot 2021-08-29 at 10 21 45 PM" src="https://user-images.githubusercontent.com/83378141/131558905-90cc438b-fd27-476c-808f-95096f8b9dcb.png">
-<img width="743" alt="Screen Shot 2021-08-29 at 10 47 21 PM" src="https://user-images.githubusercontent.com/83378141/131558907-b7ba32fc-1752-4fcb-8d4f-9da12cac9ceb.png">
-<img width="740" alt="Screen Shot 2021-08-29 at 11 21 27 PM" src="https://user-images.githubusercontent.com/83378141/131558908-a2c084ee-6702-42b7-9355-22e2bab1c772.png">
-<img width="741" alt="Screen Shot 2021-08-29 at 11 25 19 PM" src="https://user-images.githubusercontent.com/83378141/131558909-3b5a6ef3-c351-4824-bfcb-5d562faec371.png">
+<img width="745" alt="Screen Shot 1" src="https://github.com/dannybarto/Amazon_Vine_Analysis/blob/d04215bcca511501928c6c3d3d71f3c6329ac449/Resources/131558905-90cc438b-fd27-476c-808f-95096f8b9dcb.png">
+<img width="743" alt="Screen Shot 2" src="https://github.com/dannybarto/Amazon_Vine_Analysis/blob/d04215bcca511501928c6c3d3d71f3c6329ac449/Resources/131558907-b7ba32fc-1752-4fcb-8d4f-9da12cac9ceb.png">
+<img width="740" alt="Screen Shot3" src="https://github.com/dannybarto/Amazon_Vine_Analysis/blob/d04215bcca511501928c6c3d3d71f3c6329ac449/Resources/131558908-a2c084ee-6702-42b7-9355-22e2bab1c772.png">
+<img width="741" alt="Screen Shot 4
+" src="https://github.com/dannybarto/Amazon_Vine_Analysis/blob/d04215bcca511501928c6c3d3d71f3c6329ac449/Resources/131558909-3b5a6ef3-c351-4824-bfcb-5d562faec371.png">
 
-And lastly, I worked with the last table called `vine_table` to perform the Vine program analysis to filter the best reviews, and see if there were significantly more 5-star reviews in the paid and incentivized (vine) program. The best reviews were those that were highly voted as helpful. Then, I filtered to see which of those were part of the vine program and which were not. Please refer to the [Amazon_Vine_Analysis.ipynb](https://github.com/nicoserrano/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb) 
+ `Vine_Review_Analysis` was used to perform the Vine program analysis to filter the best reviews, and see if there were significantly more 5-star reviews in the paid and incentivized (vine) program. The best reviews were those that were highly voted as helpful. Then, I filtered to see which of those were part of the vine program and which were not. 
 
 ## Results
 - Paid Vine Program
