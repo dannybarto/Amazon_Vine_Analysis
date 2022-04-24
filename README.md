@@ -60,5 +60,5 @@ Due to the size of the dataframes it took some time to load to PostgreSQL and th
 Based on the analysis above the Vine program does not appear to provide any benefit over the unpaid reviews for the electronics category. It doesn't appear that there is any bias on the part of users who participate in the Vine program
 
 While not statistically significant it actually appears that the potential seller would be better off not enrolling in the Vine program at all.
-I
+
 
