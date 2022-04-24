@@ -45,24 +45,20 @@ Due to the size of the dataframes it took some time to load to PostgreSQL and th
 
 ## Results
 - Paid Vine Program
-  - 33 total reviews
-  - 15 5-star reviews
-  - ***45.5%*** of vine reviews were 5-star
+  - 1,080 total reviews
+  - 454 5-star reviews
+  - ***42.03%%*** of vine reviews were 5-star
 
 - Unpaid reviews
-  - 45,388 total reviews
-  - 23,733 5-star reviews
-  - ***52.3%*** of unpaid reviews were 5-star
+  - 49,673 total reviews
+  - 23,043 5-star reviews
+  - ***46.38%*** of unpaid reviews were 5-star
 
 
 ## Summary
 
-In conclusion, the vine program might just not be worth it for the apparel category. As it can be seen, there were not many helpful reviews that made part of it (total of 33), and only around half of them were 5-star rated (45%). Very similarly to the unpaid reviews which also only half of them were 5 star rated (52%). Even though the percentages may be misleading as the volume of reviews in the vine and non-vine programs vary so much, this itself is a sign that the vine program is not very popular in this category. We might not want to pay for it as it is not incentivizing the people to write better reviews. 
+Based on the analysis above the Vine program does not appear to provide any benefit over the unpaid reviews for the electronics category. It doesn't appear that there is any bias on the part of users who participate in the Vine program
 
-This allows us to conclude that customers don't feel a positivity bias for leaving good reviews in the paid program as there are so few and not so many well-rated. Nevertheless, if we were to further analyze we could calculate the mean of the star ratings on each programs' reviews to see if there's a significant incentive. 
-
-![Screen Shot 2021-09-02 at 1 10 18 PM](https://user-images.githubusercontent.com/83378141/131887983-807ac118-b426-4db4-af18-209d85d2d80b.png)
-
-In fact, there is a slight 0.2 difference in the average review star-rating in favor of the vine program. However, there is still not enough information to enroll in it. A great recommendation would be to apply a NLP sentiment analysis to check for the words used in the majority of the reviews. This way we could see if vine reviews are more touching and detailed, that we can feel customers have an incentive to leave great reviews.
-
+While not statistically significant it actually appears that the potential seller would be better off not enrolling in the Vine program at all.
+I
 
